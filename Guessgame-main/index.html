@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <ul class="menu">
+            <li><a href="">Mainpage</a></li>
+            <li><a href="">Git</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Random</a></li>
+            <li>
+                <a href="">
+                    <img class="icon" src="img/Instagram_logo_2016.svg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img class="icon" src="img/LinkedIn_icon.svg" alt="">
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1> Guess a number between 1 and 100</h1>
+        <div id="c1" class="form-container">
+            <form>
+                <input id="number-input" class="number-input" type="number" min="1" max="100" required>
+                <button type="submit"  class="number-submit" value="Gissa!">Guess!</button>
+            </form>
+        </div>
+        <div id="c2" class="result-container">
+            <ul class="guess">
+                
+            </ul>
+            <p class="last-result"></p>
+            <p class="low-high"></p>
+            <div class="rätt"><img src="img/dance.gif" alt=""></div>
+            <div class="fel"><img src="img/fel-fem-myror.gif" alt=""></div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
